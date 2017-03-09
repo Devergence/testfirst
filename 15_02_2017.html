@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <!-- Тег meta для указания кодировки -->
+  <meta charset="utf-8">
+</head>
+
+<body>
+
+  <p></p> 
+	<script>
+var user = prompt("Ты кто?", "");
+if (user == "Админ") {
+	var pass = prompt("Введи пароль", "");
+	if (pass == "Чёрный Властелин") {
+		alert("Добро подаловать!");
+	} else if (pass == null) {
+	alert("Вход отменен");
+} else {
+	alert("Пароль неверный");
+} 
+} else if (user == null) {
+	alert("Вход отменен");
+} else {
+	alert("Я вас не знаю");
+}
+</script>
+
+
+</body>
+
+</html>
